@@ -65,6 +65,14 @@ public class LoginSessao {
 	public void setTempoDeLogin(int tempoDeLogin) {
 		this.tempoDeLogin = tempoDeLogin;
 	}
+	public String toString() {
+		return "LoginSessao [email=" + email + ", senha=" + senha + ", auenticacaoDoisFatores=" + auenticacaoDoisFatores
+				+ ", dispositivoSessao=" + dispositivoSessao + ", tempoDeLogin=" + tempoDeLogin + ", getEmail()="
+				+ getEmail() + ", getSenha()=" + getSenha() + ", isAuenticacaoDoisFatores()="
+				+ isAuenticacaoDoisFatores() + ", getDispositivoSessao()=" + getDispositivoSessao()
+				+ ", getTempoDeLogin()=" + getTempoDeLogin() + ", getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	
 	
 	

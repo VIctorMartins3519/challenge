@@ -62,6 +62,14 @@ public class Pagamento {
 	public void setTokenSeguranca(int tokenSeguranca) {
 		this.tokenSeguranca = tokenSeguranca;
 	}
+	public String toString() {
+		return "Pagamento [id=" + id + ", metodoDePagamento=" + metodoDePagamento + ", statusPagamento="
+				+ statusPagamento + ", valor=" + valor + ", tokenSeguranca=" + tokenSeguranca + ", getId()=" + getId()
+				+ ", getMetodoDePagamento()=" + getMetodoDePagamento() + ", getStatusPagamento()="
+				+ getStatusPagamento() + ", getValor()=" + getValor() + ", getTokenSeguranca()=" + getTokenSeguranca()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
 	
 	
 }

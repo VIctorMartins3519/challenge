@@ -17,15 +17,15 @@ public class Endereco {
 	}
 	
 		public Endereco(String logradouro, int numero, String complemento, String bairro, String cidade, String estado,
-				String cep) {
-			super();
-			this.logradouro = logradouro;
-			this.numero = numero;
-			this.complemento = complemento;
-			this.bairro = bairro;
-			this.cidade = cidade;
-			this.estado = estado;
-			this.cep = cep;
+			String cep) {
+		super();
+		this.logradouro = logradouro;
+		this.numero = numero;
+		this.complemento = complemento;
+		this.bairro = bairro;
+		this.cidade = cidade;
+		this.estado = estado;
+		this.cep = cep;
 	
 	}
 	
@@ -83,5 +83,13 @@ public class Endereco {
 
 	public void setCep(String cep) {
 		this.cep = cep;
+	}
+	public String toString() {
+		return "Endereco [logradouro=" + logradouro + ", numero=" + numero + ", complemento=" + complemento
+				+ ", bairro=" + bairro + ", cidade=" + cidade + ", estado=" + estado + ", cep=" + cep
+				+ ", getLogradouro()=" + getLogradouro() + ", getNumero()=" + getNumero() + ", getComplemento()="
+				+ getComplemento() + ", getBairro()=" + getBairro() + ", getCidade()=" + getCidade() + ", getEstado()="
+				+ getEstado() + ", getCep()=" + getCep() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
 	}
 }

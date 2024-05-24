@@ -33,6 +33,12 @@ public class Avaliacao {
 		this.avaliacao = avaliacao;
 	
 	}
+	@Override
+	public String toString() {
+		return "Avaliacao [usuario=" + usuario + ", avaliacao=" + avaliacao + ", getUsuario()=" + getUsuario()
+				+ ", getAvaliacao()=" + getAvaliacao() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
 	
 	
 	

@@ -81,5 +81,13 @@ public class Veiculo {
 	public void setPlaca(String placa) {
 		this.placa = placa;
 	}
+	public String toString() {
+		return "Veiculo [id=" + id + ", marca=" + marca + ", modelo=" + modelo + ", cor=" + cor + ", pecaQuebrada="
+				+ pecaQuebrada + ", donoDoVeiculo=" + donoDoVeiculo + ", placa=" + placa + ", getId()=" + getId()
+				+ ", getMarca()=" + getMarca() + ", getModelo()=" + getModelo() + ", getCor()=" + getCor()
+				+ ", getPecaQuebrada()=" + getPecaQuebrada() + ", getDonoDoVeiculo()=" + getDonoDoVeiculo()
+				+ ", getPlaca()=" + getPlaca() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+				+ ", toString()=" + super.toString() + "]";
+	}
 	
 }

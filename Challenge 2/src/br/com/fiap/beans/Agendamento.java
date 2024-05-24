@@ -43,6 +43,12 @@ public class Agendamento {
 		this.tipoDeServiço = tipoDeServiço;
 	
 	}
+	public String toString() {
+		return "Agendamento [idAgendamento=" + idAgendamento + ", horario=" + horario + ", tipoDeServiço="
+				+ tipoDeServiço + ", getIdAgendamento()=" + getIdAgendamento() + ", getHorario()=" + getHorario()
+				+ ", getTipoDeServiço()=" + getTipoDeServiço() + ", getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	
 	
 }

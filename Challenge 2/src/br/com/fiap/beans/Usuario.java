@@ -86,5 +86,13 @@ public class Usuario {
 	public void setPlanoDeSeguro(String planoDeSeguro) {
 		this.planoDeSeguro = planoDeSeguro;
 	}
+	public String toString() {
+		return "Usuario [id=" + id + ", nomeUsuario=" + nomeUsuario + ", idadeUsuario=" + idadeUsuario + ", email="
+				+ email + ", telefone=" + telefone + ", endereco=" + endereco + ", planoDeSeguro=" + planoDeSeguro
+				+ ", getId()=" + getId() + ", getNomeUsuario()=" + getNomeUsuario() + ", getIdadeUsuario()="
+				+ getIdadeUsuario() + ", getEmail()=" + getEmail() + ", getTelefone()=" + getTelefone()
+				+ ", getEndereco()=" + getEndereco() + ", getPlanoDeSeguro()=" + getPlanoDeSeguro() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
 
 }

@@ -42,6 +42,13 @@ public class SessaoDeAtendimento {
 	public void setSesssaoFinalizada(boolean sesssaoFinalizada) {
 		this.sesssaoFinalizada = sesssaoFinalizada;
 	}
+	public String toString() {
+		return "SessaoDeAtendimento [idAtendimento=" + idAtendimento + ", usuarioEmAtendimento=" + usuarioEmAtendimento
+				+ ", sesssaoFinalizada=" + sesssaoFinalizada + ", getIdAtendimento()=" + getIdAtendimento()
+				+ ", getUsuarioEmAtendimento()=" + getUsuarioEmAtendimento() + ", isSesssaoFinalizada()="
+				+ isSesssaoFinalizada() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
 	
 	
 }

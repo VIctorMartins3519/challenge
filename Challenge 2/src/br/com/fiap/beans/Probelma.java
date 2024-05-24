@@ -52,6 +52,13 @@ public class Probelma {
 	public void setPronblemaComplexo(boolean pronblemaComplexo) {
 		this.pronblemaComplexo = pronblemaComplexo;
 	}
+	public String toString() {
+		return "Probelma [pecaComProblema=" + pecaComProblema + ", veiculo=" + veiculo + ", precoConserto="
+				+ precoConserto + ", pronblemaComplexo=" + pronblemaComplexo + ", getPecaComProblema()="
+				+ getPecaComProblema() + ", getVeiculo()=" + getVeiculo() + ", getPrecoConserto()=" + getPrecoConserto()
+				+ ", isPronblemaComplexo()=" + isPronblemaComplexo() + ", getClass()=" + getClass() + ", hashCode()="
+				+ hashCode() + ", toString()=" + super.toString() + "]";
+	}
 	
 	
 }

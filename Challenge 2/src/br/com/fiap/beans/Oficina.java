@@ -74,6 +74,14 @@ public class Oficina {
 	public void setEspeciealidade(String especiealidade) {
 		this.especiealidade = especiealidade;
 	}
+	public String toString() {
+		return "Oficina [id=" + id + ", endereco=" + endereco + ", cnpj=" + cnpj + ", razaoSocial=" + razaoSocial
+				+ ", oficinaDaPorto=" + oficinaDaPorto + ", especiealidade=" + especiealidade + ", getId()=" + getId()
+				+ ", getEndereco()=" + getEndereco() + ", getCnpj()=" + getCnpj() + ", getRazaoSocial()="
+				+ getRazaoSocial() + ", isOficinaDaPorto()=" + isOficinaDaPorto() + ", getEspeciealidade()="
+				+ getEspeciealidade() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
 	
 	
 }
